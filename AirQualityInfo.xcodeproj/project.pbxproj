@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		8456A1CF2BD561280072A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1CE2BD561280072A175 /* AppDelegate.swift */; };
 		8456A1D12BD561280072A175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1D02BD561280072A175 /* SceneDelegate.swift */; };
-		8456A1D32BD561280072A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1D22BD561280072A175 /* ViewController.swift */; };
-		8456A1D62BD561280072A175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456A1D42BD561280072A175 /* Main.storyboard */; };
+		8456A1D32BD561280072A175 /* AQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1D22BD561280072A175 /* AQI.swift */; };
 		8456A1D92BD561280072A175 /* AirQualityInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1D72BD561280072A175 /* AirQualityInfo.xcdatamodeld */; };
 		8456A1DB2BD561290072A175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456A1DA2BD561290072A175 /* Assets.xcassets */; };
 		8456A1DE2BD561290072A175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456A1DC2BD561290072A175 /* LaunchScreen.storyboard */; };
 		8456A1E92BD561290072A175 /* AirQualityInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1E82BD561290072A175 /* AirQualityInfoTests.swift */; };
 		8456A1F32BD561290072A175 /* AirQualityInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1F22BD561290072A175 /* AirQualityInfoUITests.swift */; };
 		8456A1F52BD561290072A175 /* AirQualityInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A1F42BD561290072A175 /* AirQualityInfoUITestsLaunchTests.swift */; };
+		8456A2042BD6AD190072A175 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8456A2032BD6AD190072A175 /* launch.png */; };
+		8456A2082BD6B0300072A175 /* launch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8456A2072BD6B0300072A175 /* launch2.png */; };
+		8456A20A2BD6B39F0072A175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456A2092BD6B39F0072A175 /* Main.storyboard */; };
+		8456A20C2BD6BBF20072A175 /* RestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456A20B2BD6BBF20072A175 /* RestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,7 @@
 		8456A1CB2BD561270072A175 /* AirQualityInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQualityInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456A1CE2BD561280072A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8456A1D02BD561280072A175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8456A1D22BD561280072A175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8456A1D52BD561280072A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8456A1D22BD561280072A175 /* AQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQI.swift; sourceTree = "<group>"; };
 		8456A1D82BD561280072A175 /* AirQualityInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirQualityInfo.xcdatamodel; sourceTree = "<group>"; };
 		8456A1DA2BD561290072A175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8456A1DD2BD561290072A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		8456A1EE2BD561290072A175 /* AirQualityInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirQualityInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456A1F22BD561290072A175 /* AirQualityInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityInfoUITests.swift; sourceTree = "<group>"; };
 		8456A1F42BD561290072A175 /* AirQualityInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8456A2032BD6AD190072A175 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = SOURCE_ROOT; };
+		8456A2072BD6B0300072A175 /* launch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2.png; sourceTree = SOURCE_ROOT; };
+		8456A2092BD6B39F0072A175 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8456A20B2BD6BBF20072A175 /* RestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				8456A1CE2BD561280072A175 /* AppDelegate.swift */,
+				8456A2092BD6B39F0072A175 /* Main.storyboard */,
 				8456A1D02BD561280072A175 /* SceneDelegate.swift */,
-				8456A1D22BD561280072A175 /* ViewController.swift */,
-				8456A1D42BD561280072A175 /* Main.storyboard */,
+				8456A1D22BD561280072A175 /* AQI.swift */,
+				8456A20B2BD6BBF20072A175 /* RestController.swift */,
 				8456A1DA2BD561290072A175 /* Assets.xcassets */,
 				8456A1DC2BD561290072A175 /* LaunchScreen.storyboard */,
 				8456A1DF2BD561290072A175 /* Info.plist */,
 				8456A1D72BD561280072A175 /* AirQualityInfo.xcdatamodeld */,
+				8456A2032BD6AD190072A175 /* launch.png */,
+				8456A2072BD6B0300072A175 /* launch2.png */,
 			);
 			path = AirQualityInfo;
 			sourceTree = "<group>";
@@ -234,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456A2042BD6AD190072A175 /* launch.png in Resources */,
+				8456A20A2BD6B39F0072A175 /* Main.storyboard in Resources */,
 				8456A1DE2BD561290072A175 /* LaunchScreen.storyboard in Resources */,
 				8456A1DB2BD561290072A175 /* Assets.xcassets in Resources */,
-				8456A1D62BD561280072A175 /* Main.storyboard in Resources */,
+				8456A2082BD6B0300072A175 /* launch2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8456A1D92BD561280072A175 /* AirQualityInfo.xcdatamodeld in Sources */,
-				8456A1D32BD561280072A175 /* ViewController.swift in Sources */,
+				8456A1D32BD561280072A175 /* AQI.swift in Sources */,
 				8456A1CF2BD561280072A175 /* AppDelegate.swift in Sources */,
+				8456A20C2BD6BBF20072A175 /* RestController.swift in Sources */,
 				8456A1D12BD561280072A175 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8456A1D42BD561280072A175 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8456A1D52BD561280072A175 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8456A1DC2BD561290072A175 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,13 +448,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BB77277Y6X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AirQualityInfo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow while in use to enable AQI accuracy ";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow while in use to enable AQI accuracy ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow while in use to enable AQI accuracy ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -472,13 +480,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BB77277Y6X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AirQualityInfo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow while in use to enable AQI accuracy ";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow while in use to enable AQI accuracy ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow while in use to enable AQI accuracy ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
